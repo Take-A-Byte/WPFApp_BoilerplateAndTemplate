@@ -1,6 +1,8 @@
 ﻿namespace WpfApp1.ViewModels
 {
-    public class MainViewModel
+    using View.Resources;
+
+    public class MainViewModel : ObservableBase
     {
     }
 }

@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{76A6CDA7-67F0-4E9B-8012-D07C75136C92}</ProjectGuid>
+    <ProjectGuid>{F88E7AED-E48D-48B0-9A26-C639740BB957}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WpfApp1.ViewModels</RootNamespace>
-    <AssemblyName>WpfApp1.ViewModels</AssemblyName>
+    <RootNamespace>View.Resources</RootNamespace>
+    <AssemblyName>View.Resources</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,26 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MainViewModel.cs" />
+    <Compile Include="ObservableBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\View.Resources\View.Resources.csproj">
-      <Project>{f88e7aed-e48d-48b0-9a26-c639740bb957}</Project>
-      <Name>View.Resources</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\WpfApp1.Contracts\WpfApp1.Contracts.csproj">
-      <Project>{4036bb63-3d9f-47c4-b25f-080e3f210f21}</Project>
-      <Name>WpfApp1.Contracts</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\WpfApp1.Translations\WpfApp1.Translations.csproj">
-      <Project>{5f16f0bd-98fd-4625-bfe0-0c5d7d133b0e}</Project>
-      <Name>WpfApp1.Translations</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\WpfApp1.{Infrastructure}\WpfApp1.{Infrastructure}.csproj">
-      <Project>{baa2bad9-719c-4484-ac92-6528e671c0c3}</Project>
-      <Name>WpfApp1.{Infrastructure}</Name>
-    </ProjectReference>
+    <Folder Include="Contracts\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
