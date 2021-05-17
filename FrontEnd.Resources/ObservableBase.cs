@@ -1,4 +1,4 @@
-﻿namespace View.Resources
+﻿namespace FrontEnd.Resources
 {
     using System.ComponentModel;
     using System.Runtime.CompilerServices;

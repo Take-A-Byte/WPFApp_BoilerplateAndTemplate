@@ -45,9 +45,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\View.Resources\View.Resources.csproj">
+    <ProjectReference Include="..\FrontEnd.Resources\FrontEnd.Resources.csproj">
       <Project>{f88e7aed-e48d-48b0-9a26-c639740bb957}</Project>
-      <Name>View.Resources</Name>
+      <Name>FrontEnd.Resources</Name>
     </ProjectReference>
     <ProjectReference Include="..\WpfApp1.Contracts\WpfApp1.Contracts.csproj">
       <Project>{4036bb63-3d9f-47c4-b25f-080e3f210f21}</Project>

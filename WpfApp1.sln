@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1.Contracts", "WpfApp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1.Translations", "WpfApp1.Translations\WpfApp1.Translations.csproj", "{5F16F0BD-98FD-4625-BFE0-0C5D7D133B0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "View.Resources", "View.Resources\View.Resources.csproj", "{F88E7AED-E48D-48B0-9A26-C639740BB957}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontEnd.Resources", "FrontEnd.Resources\FrontEnd.Resources.csproj", "{F88E7AED-E48D-48B0-9A26-C639740BB957}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
