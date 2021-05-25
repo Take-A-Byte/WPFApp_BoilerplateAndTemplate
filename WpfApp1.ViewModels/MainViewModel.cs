@@ -2,7 +2,7 @@
 {
     using FrontEnd.Resources;
 
-    public class MainViewModel : ObservableBase
+    public class MainViewModel : BaseViewModel
     {
     }
 }

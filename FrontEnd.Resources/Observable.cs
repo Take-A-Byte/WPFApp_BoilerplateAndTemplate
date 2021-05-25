@@ -3,7 +3,7 @@
     using System.ComponentModel;
     using System.Runtime.CompilerServices;
 
-    public class ObservableBase : INotifyPropertyChanged
+    public class Observable : INotifyPropertyChanged
     {
         #region Public Events
 
